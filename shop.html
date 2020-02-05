@@ -1,0 +1,68 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Shop</title>
+            <link rel="stylesheet" href="normalization.css">
+            <link rel="stylesheet" href="main.css">
+        </head>
+        
+        <body>
+            <div class="left_block">
+                    
+                <!--creating new good-->
+                <div class="creating_good">
+                    <form action="shop.html" method="GET">
+                        <input class="text-entring-style" type="text" placeholder="Enter the name">
+                        <input type="submit" class="submission-but" value="Create">
+                    </form>
+                </div>
+                <hr class="hr">
+                <!--list of goods-->
+                <div class="list_of_goods">
+                    <div class="good">
+                        <div class="p-style">Cabbage</div>
+                        <div class="plusminus-style">
+                            <button data-tooltip="minus one" class="button-style-red">-</button>
+                            <span>50</span>
+                            <button data-tooltip="plus one" class="button-style-green ">+</button>
+                        </div>
+                        <div class="buy-cross-container"><button data-tooltip="buy product" class="buy-button-style">Buy</button><button data-tooltip="delete" class="cross">x</button></div>
+                    </div><br><hr class="hr">
+                    <div class="good">
+                        <div class="p-style">Potato</div>
+                        <div class="plusminus-style">
+                            <button data-tooltip="minus one" class="button-style-red">-</button>
+                            <span>86</span>
+                            <button data-tooltip="plus one" class="button-style-green ">+</button>
+                        </div>
+                        <div class="buy-cross-container"><button data-tooltip="buy product" class="buy-button-style">Buy</button><button data-tooltip="delete" class="cross">x</button></div>
+                    </div><br><hr class="hr">
+                    <div class="good">
+                        <div class="p-style">Carrot</div>
+                        <div class="plusminus-style">
+                            <button data-tooltip="minus one" class="button-style-red">-</button>
+                            <span>19</span>
+                            <button data-tooltip="plus one" class="button-style-green ">+</button>
+                        </div>
+                        <div class="buy-cross-container"><button data-tooltip="buy product" class="buy-button-style">Buy</button><button data-tooltip="delete" class="cross">x</button></div>
+                    </div><br><hr class="hr">
+                </div>
+            </div>
+
+            <div class="right_block">
+                <div class="label">Left</div>
+                <div class="goods_left">
+                    <div class="p-left-style"><p>Cabbage </p><p class="orange-style">50</p></div>
+                    <div class="p-left-style"><p>Potato </p><p class="orange-style">86</p></div>
+                    <div class="p-left-style"><p>Carrot </p><p class="orange-style">19</p></div>
+                </div><hr>
+                <div class="label">Bought</div>
+                <div class="goods_bought">
+                </div><hr>
+            </div>
+                
+            <div class="badge"><div class="badge-text-seen">Buy List</div><div class="gap"></div><div class="badge-text-hidden" style>Created by Yehor-lab</div></div>
+            <div class="badge-for-print"><div class="badge-text-seen">Yehor-lab</div></div>
+        </body>  
+    </html>
